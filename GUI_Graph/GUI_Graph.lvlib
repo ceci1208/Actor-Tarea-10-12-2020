@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="file format Msg.lvclass" Type="LVClass" URL="../../GUI_Graph Messages/file format Msg/file format Msg.lvclass"/>
+		<Item Name="File Path Msg.lvclass" Type="LVClass" URL="../../GUI_Graph Messages/File Path Msg/File Path Msg.lvclass"/>
 		<Item Name="Graph Data Msg.lvclass" Type="LVClass" URL="../../GUI_Graph Messages/Graph Data Msg/Graph Data Msg.lvclass"/>
 		<Item Name="Log enable Msg.lvclass" Type="LVClass" URL="../../GUI_Graph Messages/Log enable Msg/Log enable Msg.lvclass"/>
 		<Item Name="Start Stop Msg.lvclass" Type="LVClass" URL="../../GUI_Graph Messages/Start Stop Msg/Start Stop Msg.lvclass"/>

@@ -7,6 +7,5 @@
 		<Item Name="Save Data Msg.lvclass" Type="LVClass" URL="../Loggin Messages/Save Data Msg/Save Data Msg.lvclass"/>
 		<Item Name="Write Path Msg.lvclass" Type="LVClass" URL="../Loggin Messages/Write Path Msg/Write Path Msg.lvclass"/>
 	</Item>
-	<Item Name="BIN.lvclass" Type="LVClass" URL="../BIN/BIN.lvclass"/>
 	<Item Name="Loggin.lvclass" Type="LVClass" URL="../Loggin/Loggin.lvclass"/>
 </Library>
