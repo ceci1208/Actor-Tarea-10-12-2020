@@ -4,7 +4,10 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="FILE PATH COUNT Msg.lvclass" Type="LVClass" URL="../../Binary counter Messages/FILE PATH COUNT Msg/FILE PATH COUNT Msg.lvclass"/>
 		<Item Name="Graph Data Msg.lvclass" Type="LVClass" URL="../../Binary counter Messages/Graph Data Msg/Graph Data Msg.lvclass"/>
+		<Item Name="LOG COUNT Msg.lvclass" Type="LVClass" URL="../../Binary counter Messages/LOG COUNT Msg/LOG COUNT Msg.lvclass"/>
+		<Item Name="Save TDMS Msg.lvclass" Type="LVClass" URL="../../Binary counter Messages/Save TDMS Msg/Save TDMS Msg.lvclass"/>
 		<Item Name="START STOP Msg.lvclass" Type="LVClass" URL="../../Binary counter Messages/START STOP Msg/START STOP Msg.lvclass"/>
 	</Item>
 	<Item Name="Binary counter.lvclass" Type="LVClass" URL="../Binary counter.lvclass"/>

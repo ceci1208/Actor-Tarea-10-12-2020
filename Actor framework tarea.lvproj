@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -10,16 +11,25 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Login actors" Type="Folder">
+		<Item Name="Binary actors" Type="Folder">
+			<Item Name="Binary counter.lvlib" Type="Library" URL="../Binary counter/Binary counter.lvlib"/>
+			<Item Name="Measurement_Binary.lvlib" Type="Library" URL="../Measurement_Binary/Measurement_Binary.lvlib"/>
+		</Item>
+		<Item Name="Gráfica actors" Type="Folder">
+			<Item Name="GUI_Graph.lvlib" Type="Library" URL="../GUI_Graph/GUI_Graph.lvlib"/>
+			<Item Name="Measurement.lvlib" Type="Library" URL="../Measurement/Measurement.lvlib"/>
+		</Item>
+		<Item Name="LOG count" Type="Folder">
 			<Item Name="Texto parent" Type="Folder">
-				<Item Name="Binary.lvlib" Type="Library" URL="../Binary/Binary.lvlib"/>
+				<Item Name="TDMS contador.lvlib" Type="Library" URL="../TDMS contador/TDMS contador.lvlib"/>
 			</Item>
+			<Item Name="Login bin.lvlib" Type="Library" URL="../Login bin/Login bin.lvlib"/>
+		</Item>
+		<Item Name="Login graph actors" Type="Folder">
+			<Item Name="Binary.lvlib" Type="Library" URL="../Binary/Binary.lvlib"/>
 			<Item Name="Loggin.lvlib" Type="Library" URL="../Loggin/Loggin.lvlib"/>
 		</Item>
-		<Item Name="Contador_binario.lvlib" Type="Library" URL="../Contador_binario/Contador_binario.lvlib"/>
-		<Item Name="GUI_Graph.lvlib" Type="Library" URL="../GUI_Graph/GUI_Graph.lvlib"/>
 		<Item Name="Launcher.vi" Type="VI" URL="../Measurement/Measurement/Launcher.vi"/>
-		<Item Name="Measurement.lvlib" Type="Library" URL="../Measurement/Measurement.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
