@@ -16,6 +16,7 @@
 			</Item>
 			<Item Name="Loggin.lvlib" Type="Library" URL="../Loggin/Loggin.lvlib"/>
 		</Item>
+		<Item Name="Contador_binario.lvlib" Type="Library" URL="../Contador_binario/Contador_binario.lvlib"/>
 		<Item Name="GUI_Graph.lvlib" Type="Library" URL="../GUI_Graph/GUI_Graph.lvlib"/>
 		<Item Name="Launcher.vi" Type="VI" URL="../Measurement/Measurement/Launcher.vi"/>
 		<Item Name="Measurement.lvlib" Type="Library" URL="../Measurement/Measurement.lvlib"/>
