@@ -10,6 +10,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Login actors" Type="Folder">
+			<Item Name="Texto parent" Type="Folder">
+				<Item Name="Binary.lvlib" Type="Library" URL="../Binary/Binary.lvlib"/>
+			</Item>
+			<Item Name="Loggin.lvlib" Type="Library" URL="../Loggin/Loggin.lvlib"/>
+		</Item>
 		<Item Name="GUI_Graph.lvlib" Type="Library" URL="../GUI_Graph/GUI_Graph.lvlib"/>
 		<Item Name="Launcher.vi" Type="VI" URL="../Measurement/Measurement/Launcher.vi"/>
 		<Item Name="Measurement.lvlib" Type="Library" URL="../Measurement/Measurement.lvlib"/>
@@ -27,6 +33,7 @@
 				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
+			<Item Name="Dummy Actor Method.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/MessageMakerProvider/_Message Maker/_templates/Message Template/Dummy Actor Method.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
